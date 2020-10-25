@@ -29,7 +29,7 @@ html, body{
 .item-column{
     border-style: solid;
     text-align: center;
-    padding: 3% 0%;
+    padding: 0% 0% 3% 0%;
     
 }
 
