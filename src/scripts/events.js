@@ -36,13 +36,13 @@ function render(){
              <hr class="divider">
              <br>
              Base Meal Price: $
-             <input type="text" name="base-price" class="base-price" placeholder="0.00" pattern= "\\d+(\\.\\d{2})?">
+             <input type="text" name="base-price" class="base-price" placeholder="0.00" pattern= "\\d+(\\.\\d{2})?" required>
              <br>
              Tax Rate: %
-             <input type="text" name="tax" class="tax" placeholder="0.00" pattern= "\\d+(\\.\\d{2})?">
+             <input type="text" name="tax" class="tax" placeholder="0.00" pattern= "\\d+(\\.\\d{2})?" required>
              <br>
              Tip Percentage: 
-             <input type="text" name="tip" class="tip" placeholder="0.00" pattern= "\\d+(\\.\\d{2})?">
+             <input type="text" name="tip" class="tip" placeholder="0.00" pattern= "\\d+(\\.\\d{2})?" required>
              <br>
              <button type="submit" value="Submit">Submit</button>
              <button class="cancel">Cancel</button>
