@@ -1,0 +1,57 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.group-row{
+    /* padding: 5%; */
+    margin: 5% 20%;
+    display: flex;
+    flex-direction: row;
+}
+#left{
+    padding-bottom : 5%;
+    padding-top: 0%;
+    margin: auto 10% auto 0%;
+    border-style: solid;
+    flex: 1 1 50%;
+    text-align: center;
+}
+
+#right{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 50%;
+}
+
+.item-column{
+    border-style: solid;
+    text-align: center;
+    padding: 3% 0%;
+    
+}
+
+.submit, .cancel{
+    width: 75px;
+    margin-top: 50%;
+    display: inline-block;
+}
+ .reset{
+    margin-top: 0%;
+    margin-left:77%;
+}
+.divider{
+    width: 100%;
+    border: none;
+    border-top: 2px solid #000  
+}
+
+input{
+    margin-bottom: 20px;
+    width: 75px;
+}
+#addition{
+    width: 80%
+}
