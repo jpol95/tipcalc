@@ -6,7 +6,7 @@ function updateStore(base, tax, tipPerc){
         custCharges.subtotal = Math.round((base * (1+tax/100)*100))/100
         custCharges.tip = Math.round(tipPerc*custCharges.subtotal)/100
         custCharges.total = Math.round((custCharges.subtotal + custCharges.tip)*100)/100
-        myEarnings.tipTotal += Math.round(custCharges.tip*100)/100
+        myEarnings.tipTotal = Math.round((myEarnings.tipTotal + custCharges.tip)*100)/100
         myEarnings.mealCount += 1
         myEarnings.avg = Math.round(100*myEarnings.tipTotal / myEarnings.mealCount)/100
 }
